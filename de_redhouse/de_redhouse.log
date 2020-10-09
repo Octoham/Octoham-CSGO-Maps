@@ -1828,3 +1828,126 @@ Level flags = 7c
 Total triangle count: 506
 Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\custom\de_redhouse.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\Octoham-CSGO-Maps\de_redhouse\de_redhouse.vmf
+Map revision 21
+Patching WVT material: maps/de_redhouse/dust_massive/blend_mudbrick-plaster_base_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\Octoham-CSGO-Maps\de_redhouse\de_redhouse.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22263 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 32
+Reduced 11 texdatas to 10 (313 bytes to 272)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\Octoham-CSGO-Maps\de_redhouse\de_redhouse.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\octoham-csgo-maps\de_redhouse\de_redhouse.bsp
+reading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\octoham-csgo-maps\de_redhouse\de_redhouse.prt
+  67 portalclusters
+ 120 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 6 visible clusters (0.00%)
+Total clusters visible: 2149
+Average clusters visible: 32
+Building PAS...
+Average clusters audible: 66
+visdatasize:1783  compressed from 2144
+writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\octoham-csgo-maps\de_redhouse\de_redhouse.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\octoham-csgo-maps\de_redhouse\de_redhouse.bsp
+288 faces
+49514 square feet [7130104.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+288 patches before subdivision
+7222 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 664040, max 276
+transfer lists:   5.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0044 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                 60/8192          720/98304    ( 0.7%) 
+brushsides             366/81920        2928/655360   ( 0.4%) 
+planes                 196/65536        3920/1310720  ( 0.3%) 
+vertexes               459/65536        5508/786432   ( 0.7%) 
+nodes                  193/65536        6176/2097152  ( 0.3%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                 10/4096          320/131072   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  288/65536       16128/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              161/65536        9016/3670016  ( 0.2%) 
+facebrushes             32/0              64/0        ( 0.0%) 
+facebrushlists         288/0            1152/0        ( 0.0%) 
+leaves                 200/65536        6400/2097152  ( 0.3%) 
+leaffaces              331/65536         662/131072   ( 0.5%) 
+leafbrushes            116/65536         232/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2016/512000       8064/2048000  ( 0.4%) 
+edges                 1156/256000       4624/1024000  ( 0.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           582/65536        1164/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]      368588/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1783/16777216 ( 0.0%) 
+entdata               [variable]        2192/393216   ( 0.6%) 
+LDR ambient table      200/65536         800/262144   ( 0.3%) 
+HDR ambient table      200/65536         800/262144   ( 0.3%) 
+LDR leaf ambient        97/65536        2716/1835008  ( 0.1%) 
+HDR leaf ambient       200/65536        5600/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       75234/0        ( 0.0%) 
+physics               [variable]       22263/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 796
+Writing c:\program files (x86)\steam\steamapps\common\counter-strike global offensive\csgo\maps\octoham-csgo-maps\de_redhouse\de_redhouse.bsp
+1 second elapsed
